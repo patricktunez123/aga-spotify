@@ -1,0 +1,31 @@
+@import "../../_base.scss";
+
+.aga--spotify--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    min-width: 90px;
+    background: $white-color;
+    padding: 0.5rem;
+    border-radius: 20px;
+    input {
+      width: 100%;
+      border: none;
+      padding: 0.5rem;
+      &:focus {
+        border: none;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    .profile-name {
+      margin-left: 5px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../../_base.scss";
+
+.aga--spotify--sideMenu {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  // &__icon {
+  //   padding-left: 1px;
+  //   padding-right: 1px;
+  // }
+
+  &:hover {
+    color: $white-color;
+  }
+}

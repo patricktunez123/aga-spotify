@@ -1,0 +1,9 @@
+@import "../../_base.scss";
+
+.aga--spotify--body {
+  background: $body-color;
+  height: 100vh;
+  background: linear-gradient(rgb(91, 87, 115), $body-color);
+  flex: 0.8;
+  padding: 30px;
+}
